@@ -138,23 +138,6 @@ section {
   h2 {
     font-size: 16px;
   }
-  .search-text{
-    display:none;
-  }
-  .nav-pills{
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-  .nav-pills .nav-link {
-    padding: 12px;
-    margin-left: 17px;
-    border-radius: 7px;
-    height: 50px;
-    line-height: 25px;
-    font-size: 15px;
-}
-.nav-link.active:after{
-  top: 10px;
 }
 
 /* ************************************************************
@@ -260,6 +243,24 @@ section {
   /*preloader**/
   .preload {
     left: 35%;
+}
+.search-text{
+  display:none;
+}
+.nav-pills{
+  padding-bottom:20px;
+  padding-top:20px;
+}
+.nav-pills .nav-link {
+  padding: 12px;
+  margin-left: 17px;
+  border-radius: 7px;
+  height: 50px;
+  line-height: 25px;
+  font-size: 15px;
+}
+.nav-link.active:after{
+top: 10px;
 }
   
 }
