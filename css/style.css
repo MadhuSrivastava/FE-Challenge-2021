@@ -115,6 +115,14 @@ section {
   width: 180px;
   margin-left: 20px;
 }
+.btn-form-submit:hover{
+  background: #f2da56;
+  box-shadow: 0 3px 0 0 #a6953b, inset 0 1px 0 0 #ffffff;
+}
+ .btn-form-submit:focus, .btn-form-submit:active {
+  background: #f6bc25;
+  box-shadow: 0 3px 0 0 #a6953b, inset 0 1px 0 0 #ffffff;
+}
 
 .input-group > .form-control {
   height: 70px;
