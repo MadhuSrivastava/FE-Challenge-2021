@@ -78,6 +78,43 @@ section {
     top:10px;
     height:100vh;
   }
+  /*Tab**/
+  .search-text{
+    color: #fff;
+    font-weight: 500; 
+    padding: 10px 0px 10px 20px;
+    text-transform: uppercase;
+  }
+  .nav-pills .nav-link {
+    color: #f6bc25;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #f6bc25;
+    padding: 10px;
+    margin-left:25px;
+    border-radius:7px;
+    height: 50px;
+    line-height: 25px;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #004a80;
+    background-color: #f6bc25;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-link.active:after {
+  width: 0;
+    height: 0;
+    position: relative;
+    content: "";
+    display: block;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #f6bc25;
+    left: 43%;
+    top: 13px
+}
+
 
 @media (max-width: 991px) {
   h1 {
