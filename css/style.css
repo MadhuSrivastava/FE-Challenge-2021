@@ -61,6 +61,23 @@ section {
 .text-secondary {
   color: #4A4A4A !important;
 }
+/*preloader**/
+.content {
+  display:none;
+}
+.preload {
+    position:absolute;
+    top: 50%;
+    left:50%;
+  }
+  .preload-text{
+    color: #004a80;
+    font-weight: bold;
+    position: relative;
+    left:-25px;
+    top:10px;
+    height:100vh;
+  }
 
 @media (max-width: 991px) {
   h1 {
@@ -70,6 +87,10 @@ section {
   h3,
   h5 {
     font-size: 20px;
+  }
+    /*preloader**/
+    .preload {
+      left: 43%;
   }
 }
 
@@ -182,6 +203,11 @@ section {
   .btn-form-submit {
     margin: 12px 0 0 0;
   }
+  /*preloader**/
+  .preload {
+    left: 35%;
+}
+  
 }
 
 /* ************************************************************
