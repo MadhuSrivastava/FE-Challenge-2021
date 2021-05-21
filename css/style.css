@@ -128,6 +128,7 @@ section {
     /*preloader**/
     .preload {
       left: 43%;
+      top:25%;
   }
 }
 
@@ -226,45 +227,6 @@ section {
   line-height: normal;
 }
 
-@media (max-width: 767px) {
-  .input-group {
-    flex-direction: column;
-  }
-  .input-group > .form-control,
-  .btn-form-submit {
-    width: 100%;
-  }
-  .input-group > .form-control {
-    height: 50px;
-  }
-  .btn-form-submit {
-    margin: 12px 0 0 0;
-  }
-  /*preloader**/
-  .preload {
-    left: 35%;
-}
-.search-text{
-  display:none;
-}
-.nav-pills{
-  padding-bottom:20px;
-  padding-top:20px;
-}
-.nav-pills .nav-link {
-  padding: 12px;
-  margin-left: 12px;
-  border-radius: 7px;
-  height: 50px;
-  line-height: 25px;
-  font-size: 15px;
-}
-.nav-link.active:after{
-top: 10px;
-}
-  
-}
-
 /* ************************************************************
 ***************************************************************
 --- [SECTION] Above the Fold ---
@@ -342,6 +304,16 @@ top: 10px;
   .list-text p {
     line-height: 24px;
   }
+  .nav-pills .nav-link {
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    line-height: 15px;
+}
+.search-text {
+  font-size: 14px;
+}
 }
 
 @media (max-width: 767px) {
@@ -359,6 +331,39 @@ top: 10px;
     font-size: 26.88px;
     margin-right: 10.6px;
   }
+  .input-group {
+    flex-direction: column;
+  }
+  .input-group > .form-control,
+  .btn-form-submit {
+    width: 100%;
+  }
+  .input-group > .form-control {
+    height: 50px;
+  }
+  .btn-form-submit {
+    margin: 12px 0 0 0;
+  }
+  /*preloader**/
+  .preload {
+    left: 35%;
+    top:20%;
+}
+.search-text{
+  display:none;
+}
+.nav-pills{
+  padding-bottom:20px;
+  padding-top:20px;
+}
+.nav-pills .nav-link {
+    margin-left: 16px;
+    padding: 13px;
+    line-height: 13px;
+}
+.nav-link.active:after{
+top: 10px;
+}
 }
 
 /* ************************************************************
