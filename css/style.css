@@ -357,14 +357,34 @@ section {
   padding-top:20px;
 }
 .nav-pills .nav-link {
-    margin-left: 16px;
-    padding: 13px;
-    line-height: 13px;
+  margin-left: 17px;
+  line-height: 36px;
+  padding: 0px 22px;
 }
 .nav-link.active:after{
-top: 10px;
+top:2px;
 }
 }
+@media (max-width:375px) {
+  .nav-pills .nav-link {
+    padding: 0px 12px;
+  }
+}
+@media (max-width:360px) {
+  .nav-pills .nav-link {
+    padding: 0px 9px;
+  }
+}
+@media (max-width:320px) {
+.nav-pills .nav-link {
+  padding: 0px 7px;
+  font-size: 13px;
+}
+.nav-link.active:after {
+  top: 0px;
+}
+}
+
 
 /* ************************************************************
 ***************************************************************
